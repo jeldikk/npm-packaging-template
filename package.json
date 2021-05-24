@@ -1,0 +1,30 @@
+{
+  "name": "npm-package-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/npm-package-test.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "npx tsc",
+    "test": "npx ts-mocha tests/**/*.test.ts",
+    "coverage": "nyc npm test",
+    "clean": "rimraf ./dist",
+    "lint": "eslint ./src/**/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.27.0",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "rimraf": "^3.0.2",
+    "ts-mocha": "^8.0.0",
+    "typescript": "^4.2.4"
+  }
+}
