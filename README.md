@@ -13,4 +13,4 @@
 2. install typescript and intialise a tsconfig file, configure root and out directories
 3. create a `src/` folder to include all the source files
 4. install necessary test runner(`mocha` and `ts-mocha`) and assertion (`chai`) libraries.
-5. 
+5. configure tsconfig.json options for rootDir and outDir
