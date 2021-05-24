@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-test",
+  "name": "npm-package-mrkk",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm-package-testing stuff created to know how package is developed",
   "main": "./dist/npm-package-test.js",
   "scripts": {
     "build": "npx tsc",
@@ -11,7 +11,22 @@
     "lint": "eslint ./src/**/*.ts",
     "prebuild": "npm run clean"
   },
-  "keywords": [],
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeldikk/npm-packaging-template.git"
+  },
+  "keywords": [
+    "npm-package-test",
+    "add",
+    "multiply",
+    "power"
+  ],
+  "homepage": "https://github.com/jeldikk/npm-packaging-template/blob/master/README.md",
   "author": "jeldikk",
   "license": "ISC",
   "devDependencies": {
