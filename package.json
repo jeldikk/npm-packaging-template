@@ -4,15 +4,15 @@
   "description": "",
   "main": "./dist/npm-package-test.js",
   "scripts": {
-    "prebuild": "npm run clean",
     "build": "npx tsc",
     "test": "npx ts-mocha tests/**/*.test.ts",
     "coverage": "nyc npm test",
     "clean": "rimraf ./dist",
-    "lint": "eslint ./src/**/*.ts"
+    "lint": "eslint ./src/**/*.ts",
+    "prebuild": "npm run clean"
   },
   "keywords": [],
-  "author": "",
+  "author": "jeldikk",
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.2.18",
