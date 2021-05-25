@@ -31,5 +31,9 @@ describe("npm-package-test unit tests", ()=>{
         const res = power(2, -100);
         expect(res).is.lessThan(1);
     })
+
+    it("Error TestCase", ()=>{
+        expect(1).is.equal(23)
+    })
     
 })
